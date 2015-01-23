@@ -53,12 +53,12 @@ function remove(item) {
 }
 
 var cities = new LList();
-cities.insert("Conway", "head");
-cities.insert("Russellville", "Conway");
-cities.insert("Carlisle", "Russellville");
-cities.insert("Alma", "Carlisle");
+cities.insert("Los Angeles", "head");
+cities.insert("San Francisco", "Los Angeles");
+cities.insert("Seattle", "San Francisco");
+cities.insert("Portland", "Seattle");
 cities.display();
 console.log();
 console.log("\nEnd of the list.\n\n");
-cities.remove("Carlisle");
+cities.remove("Seattle");
 cities.display();
